@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Model.png');
+    background-size: 1500px 720px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+.text-container {
+    margin-left: 10px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Model.png');
+    background-size: 1500px 720px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.small-image {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    font-size: 68px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.text {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button img {
+    width: 100px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.button-text {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    animation: glow 2s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+}
+
+.button-text:hover {
+    animation: none;
+    background: linear-gradient(135deg, #0056b3, #00ff7b);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
